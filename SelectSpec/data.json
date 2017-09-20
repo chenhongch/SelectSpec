@@ -1,0 +1,73 @@
+
+"arr" = [
+        {
+        "goodspriceid": "23",
+        "spec_price": "520",
+        "propertylist": [
+                           {
+                           "spec_id": "57",
+                           "spec_name": "尺寸",
+                           "sprc_id": "68",
+                           "sprc_value": "56"
+                           },
+                           {
+                           "spec_id": "56",
+                           "spec_name": "颜色",
+                           "sprc_id": "67",
+                           "sprc_value": "绿色"
+                           }
+                           ]
+        },
+        {
+        "goodspriceid": "23",
+        "spec_price": "520",
+        "propertylist": [
+                           {
+                           "spec_id": "57",
+                           "spec_name": "尺寸",
+                           "sprc_id": "68",
+                           "sprc_value": "57"
+                           },
+                           {
+                           "spec_id": "56",
+                           "spec_name": "颜色",
+                           "sprc_id": "67",
+                           "sprc_value": "绿色"
+                           }
+                           ]
+        },{
+        "goodspriceid": "23",
+        "spec_price": "520",
+        "propertylist": [
+                           {
+                           "spec_id": "57",
+                           "spec_name": "尺寸",
+                           "sprc_id": "68",
+                           "sprc_value": "56"
+                           },
+                           {
+                           "spec_id": "56",
+                           "spec_name": "颜色",
+                           "sprc_id": "67",
+                           "sprc_value": "黄色"
+                           }
+                           ]
+        },{
+        "goodspriceid": "23",
+        "spec_price": "520",
+        "propertylist": [
+                           {
+                           "spec_id": "57",
+                           "spec_name": "尺寸",
+                           "sprc_id": "68",
+                           "sprc_value": "56"
+                           },
+                           {
+                           "spec_id": "56",
+                           "spec_name": "颜色",
+                           "sprc_id": "67",
+                           "sprc_value": "黄色"
+                           }
+                           ]
+        }
+        ];

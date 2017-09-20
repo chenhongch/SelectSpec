@@ -15,6 +15,12 @@
 		E772EF011F455FA20029F927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772EEFF1F455FA20029F927 /* LaunchScreen.storyboard */; };
 		E772EF0C1F455FA20029F927 /* SelectSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E772EF0B1F455FA20029F927 /* SelectSpecTests.m */; };
 		E772EF171F455FA20029F927 /* SelectSpecUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E772EF161F455FA20029F927 /* SelectSpecUITests.m */; };
+		E772EF321F457CF10029F927 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E772EF311F457CF10029F927 /* data.json */; };
+		E7808A8E1F72143300743875 /* p1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7808A8D1F72143300743875 /* p1@2x.png */; };
+		E7821F3B1F46773900C2CC5F /* CountView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7821F3A1F46773900C2CC5F /* CountView.m */; };
+		E7821F431F4696CE00C2CC5F /* SelectSpecView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7821F3E1F4696CE00C2CC5F /* SelectSpecView.m */; };
+		E7821F441F4696CE00C2CC5F /* SepecConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E7821F401F4696CE00C2CC5F /* SepecConfig.m */; };
+		E7821F451F4696CE00C2CC5F /* SepecModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7821F421F4696CE00C2CC5F /* SepecModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		E772EF121F455FA20029F927 /* SelectSpecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectSpecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E772EF161F455FA20029F927 /* SelectSpecUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectSpecUITests.m; sourceTree = "<group>"; };
 		E772EF181F455FA20029F927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E772EF311F457CF10029F927 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E7808A8D1F72143300743875 /* p1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p1@2x.png"; sourceTree = "<group>"; };
+		E7821F391F46773900C2CC5F /* CountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountView.h; path = ../CountView.h; sourceTree = "<group>"; };
+		E7821F3A1F46773900C2CC5F /* CountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountView.m; path = ../CountView.m; sourceTree = "<group>"; };
+		E7821F3D1F4696CE00C2CC5F /* SelectSpecView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSpecView.h; sourceTree = "<group>"; };
+		E7821F3E1F4696CE00C2CC5F /* SelectSpecView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSpecView.m; sourceTree = "<group>"; };
+		E7821F3F1F4696CE00C2CC5F /* SepecConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepecConfig.h; sourceTree = "<group>"; };
+		E7821F401F4696CE00C2CC5F /* SepecConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepecConfig.m; sourceTree = "<group>"; };
+		E7821F411F4696CE00C2CC5F /* SepecModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepecModel.h; sourceTree = "<group>"; };
+		E7821F421F4696CE00C2CC5F /* SepecModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepecModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,13 @@
 		E772EEF01F455FA10029F927 /* SelectSpec */ = {
 			isa = PBXGroup;
 			children = (
+				E7808A8D1F72143300743875 /* p1@2x.png */,
 				E772EEF41F455FA20029F927 /* AppDelegate.h */,
 				E772EEF51F455FA20029F927 /* AppDelegate.m */,
 				E772EEF71F455FA20029F927 /* ViewController.h */,
 				E772EEF81F455FA20029F927 /* ViewController.m */,
+				E7821F3C1F4696CE00C2CC5F /* SelectSepecView */,
+				E772EF311F457CF10029F927 /* data.json */,
 				E772EEFA1F455FA20029F927 /* Main.storyboard */,
 				E772EEFD1F455FA20029F927 /* Assets.xcassets */,
 				E772EEFF1F455FA20029F927 /* LaunchScreen.storyboard */,
@@ -138,6 +157,21 @@
 				E772EF181F455FA20029F927 /* Info.plist */,
 			);
 			path = SelectSpecUITests;
+			sourceTree = "<group>";
+		};
+		E7821F3C1F4696CE00C2CC5F /* SelectSepecView */ = {
+			isa = PBXGroup;
+			children = (
+				E7821F391F46773900C2CC5F /* CountView.h */,
+				E7821F3A1F46773900C2CC5F /* CountView.m */,
+				E7821F3D1F4696CE00C2CC5F /* SelectSpecView.h */,
+				E7821F3E1F4696CE00C2CC5F /* SelectSpecView.m */,
+				E7821F3F1F4696CE00C2CC5F /* SepecConfig.h */,
+				E7821F401F4696CE00C2CC5F /* SepecConfig.m */,
+				E7821F411F4696CE00C2CC5F /* SepecModel.h */,
+				E7821F421F4696CE00C2CC5F /* SepecModel.m */,
+			);
+			path = SelectSepecView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E772EF011F455FA20029F927 /* LaunchScreen.storyboard in Resources */,
+				E7808A8E1F72143300743875 /* p1@2x.png in Resources */,
 				E772EEFE1F455FA20029F927 /* Assets.xcassets in Resources */,
+				E772EF321F457CF10029F927 /* data.json in Resources */,
 				E772EEFC1F455FA20029F927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7821F441F4696CE00C2CC5F /* SepecConfig.m in Sources */,
+				E7821F3B1F46773900C2CC5F /* CountView.m in Sources */,
+				E7821F451F4696CE00C2CC5F /* SepecModel.m in Sources */,
+				E7821F431F4696CE00C2CC5F /* SelectSpecView.m in Sources */,
 				E772EEF91F455FA20029F927 /* ViewController.m in Sources */,
 				E772EEF61F455FA20029F927 /* AppDelegate.m in Sources */,
 				E772EEF31F455FA20029F927 /* main.m in Sources */,
@@ -516,6 +556,7 @@
 				E772EF1D1F455FA20029F927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E772EF1E1F455FA20029F927 /* Build configuration list for PBXNativeTarget "SelectSpecTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +565,7 @@
 				E772EF201F455FA20029F927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E772EF211F455FA20029F927 /* Build configuration list for PBXNativeTarget "SelectSpecUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +574,7 @@
 				E772EF231F455FA20029F927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
